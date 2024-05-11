@@ -22,10 +22,11 @@ body {
   border-radius: 20px;
   flex-flow: wrap;
   box-shadow: 8px 8px 0 0 #000;
+
 }
 
 .bannerContainer {
-  width: 100%;
+  width: auto;
   padding: 24px 24px;
   min-height: 160px;
   height: 160px;
@@ -46,7 +47,7 @@ body {
   padding: 0 24px 0 24px;
 }
 
-.information h4 {
+ h4 {
   width: 73px;
   height: 26px;
   display: flex;
@@ -64,11 +65,14 @@ body {
   color: var(--neutral3);
 }
 
-.information h3 {
+ h3 {
   font-size: 20px;
   font-weight: var(--figTree-font-weight800);
 }
-
+h3:hover{
+  color: var(--main-color);
+  cursor: pointer;
+}
 .information p {
   font-size: 14px;
   font-weight: var(--figTree-font-weight500);
